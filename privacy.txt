@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account - [Your App Name]</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f8f9fa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    main {
+      background: white;
+      max-width: 700px;
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #222;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a.button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Delete Your Account</h1>
+    <p>
+      If you would like to delete your <strong>[Your App Name]</strong> account and all associated data, you can request deletion by contacting our support team.
+    </p>
+
+    <p><strong>Steps to request account deletion:</strong></p>
+    <ol>
+      <li>Email us at <a href="mailto:support@[yourdomain].com">support@[yourdomain].com</a>.</li>
+      <li>Use the subject line: <strong>Account Deletion Request</strong>.</li>
+      <li>Include your registered email address used in the app.</li>
+    </ol>
+
+    <p>
+      Once we receive your request, we will permanently delete your account and personal data within <strong>7 business days</strong>.  
+      You will receive a confirmation email when the deletion is complete.
+    </p>
+
+    <h2>Data Handling Information</h2>
+    <ul>
+      <li><strong>Data deleted:</strong> Username, email, profile data, usage logs.</li>
+      <li><strong>Data retained:</strong> None (unless required by law).</li>
+      <li><strong>Retention period:</strong> Up to 7 days after the request for processing.</li>
+    </ul>
+
+    <p>
+      For any other questions, please contact our support team at 
+      <a href="mailto:support@[yourdomain].com">support@[yourdomain].com</a>.
+    </p>
+
+    <a href="mailto:support@[yourdomain].com" class="button">Request Account Deletion</a>
+  </main>
+</body>
+</html>
